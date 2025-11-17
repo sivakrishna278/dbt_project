@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name : sales
+    database : PRODUCTION_DB
+    schema : PUBLIC
+    tables :
+      - name : orders 
